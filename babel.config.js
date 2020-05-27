@@ -1,9 +1,8 @@
 module.exports = function(api) {
   api.cache(true);
+  
   return {
     presets: ['babel-preset-expo'],
-    plugins: [
-      ["import", { "libraryName": "antd-mobile", "style": "true"}]
-    ] // https://github.com/ant-design/babel-plugin-import
+    plugins: ['babel-plugin-root-import']
   };
 };
