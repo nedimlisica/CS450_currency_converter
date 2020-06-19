@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Text, View } from "react-native";
 import { Flag } from "react-native-svg-flagkit";
 import { Input } from "react-native-elements";
-// import { Currency as Curr } from "react-intl-number-format";
 import Intl from "intl";
 import "intl/locale-data/jsonp/en";
 
